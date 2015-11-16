@@ -1,0 +1,12 @@
+@mixin flex($flex, $justify, $align)
+  display: $flex
+  justify-content: $justify
+  align-items: $align
+
+@mixin textgradient($direction, $color-1, $color-2)
+  background: -webkit-linear-gradient($direction, $color-1, $color-2)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+
+@mixin trans($select, $time, $type)
+    transition: $select $time $type

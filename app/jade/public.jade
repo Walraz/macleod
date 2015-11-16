@@ -1,0 +1,21 @@
+extends components/boilerplate.jade
+
+block php
+  doctype html
+
+block title
+  title MACLEOD :: Public
+
+block css
+  link(rel="stylesheet" href="css/styles.css")
+
+
+block content
+  input(id="nav-toggle" type="checkbox")
+  #wrapper
+    include components/header
+    include components/nav
+    include pages/page-public
+    include components/footer
+    
+block js

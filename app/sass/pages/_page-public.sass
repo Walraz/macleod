@@ -1,0 +1,73 @@
+#public-container
+  display: flex
+  align-items: center
+  flex-flow: column
+  flex: 1
+
+#public-landing
+  justify-content: center
+  flex-flow: row wrap
+  display: flex
+  width: 100vw
+  background: white
+
+#bottle-img
+  display: flex
+  justify-content: center
+  align-items: center
+  padding-top: 2em
+  flex: 1 100%
+  background: white
+
+#bottle-img img
+  max-width: 100%
+  height: auto
+
+section.public
+  background: white
+  display: flex
+  flex-flow: column
+  font-style: oblique
+  padding: 1em
+  flex: 1
+
+  article
+    flex: 1
+
+section.public-form
+  flex: 1
+
+  form
+    display: flex
+    flex-flow: column
+
+section.public-store
+  background: white
+  display: flex
+  flex-flow: column
+
+  article
+    text-align: center
+    background: white
+    margin: 1em
+    padding: 1em
+    flex: 1
+    border-radius: 2px
+
+    img
+      max-width: 100%
+      height: auto
+
+hr
+  @extend %hr
+
+
+section.public-story
+  background: #333
+  color: white
+  font-family: $open-sans
+  padding: 3em
+  text-align: center
+
+  hr
+    background: white

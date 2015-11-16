@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MACLEOD :: Order</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <input id="nav-toggle" type="checkbox">
+    <div id="wrapper">
+      <header>
+        <div class="logo">
+          <h1>MACLEOD</h1>
+          <p>IT CAN ONLY BE ONE    </p>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-toggle"><i class="fa fa-bars"></i><i class="fa fa-close"></i></label>
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html"><i class="fa fa-circle-o"></i><span> Home</span></a></li>
+          <li><a href="#"><i class="fa fa-circle-o"></i><span> History</span></a></li>
+          <li>
+            <input id="nav-sub-toggle" type="checkbox">
+            <label for="nav-sub-toggle"><i class="fa fa-plus"></i><i class="fa fa-minus"></i><span> Shop</span></label>
+            <ul id="nav-sub">
+              <li><a href="#">Whisky</a></li>
+              <li><a href="#">Accessories</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa fa-circle-o"></i><span> About</span></a></li>
+          <li><a href="#"><i class="fa fa-circle-o"></i><span> Contact</span></a></li>
+        </ul>
+      </nav>
+      <div id="public-container">
+        <div id="public-landing">
+          <section class="order">
+            <article>
+              <h3>One step left!</h3>
+              <p>Fill in the form below to get super fast delivery!</p>
+              <section class="public-form">
+                <form action="order.html">
+                  <input type="email" autofocus required placeholder="Name" class="input">
+                  <input type="email" autofocus required placeholder="Billign address" class="input">
+                  <input type="email" autofocus required placeholder="E-mail address" class="input">
+                  <button type="submit" class="btn"><i class="fa fa-arrow-right"></i><span> Confirm and send order</span></button>
+                </form>
+              </section>
+            </article>
+          </section>
+        </div>
+      </div>
+      <footer>
+        <p class="small">COPYRIGHT 2015 &copy;</p>
+      </footer>
+    </div>
+  </body>
+</html>

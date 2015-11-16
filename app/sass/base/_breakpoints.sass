@@ -1,0 +1,69 @@
+@media screen and (min-width: 520px)
+  section.order
+    background: none
+    color: white
+
+  section.company-form form
+    flex-flow: column
+
+  #public-landing
+    background:
+      image: url('../img/wallpaper.jpeg')
+      size: cover
+      color: black
+      position: bottom
+
+  #bottle-img, section.public
+    background: none
+    color: white
+
+  section.public-store
+    flex-flow: row wrap
+
+    article
+      flex: 1 0 33%
+
+  #bottle-img
+    flex: 1
+
+  section.public
+    padding: 5em
+
+  .nav-btn
+    display: none
+
+  nav
+    right: 0
+    top: 72px
+    width: 100vw
+    background: $link-bg-color
+    height: auto
+    position: absolute
+
+    ul
+      display: flex
+      justify-content: space-between
+
+      li
+        width: auto
+
+  #nav-sub
+    position: absolute
+    width: 200px
+
+@media screen and (min-width: 720px)
+  #public-container
+    padding-top: 2em
+
+  section.company-form form
+    flex-flow: row
+
+  section.public-store article
+    flex: 1 0 20%
+
+
+  section.public-story
+    background: none
+
+    article
+      width: 600px
